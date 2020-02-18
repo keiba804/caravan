@@ -14,8 +14,13 @@ a{
 	display: block;
 	clear: both;
 }
+header,nav,h2,.main-visual,footer {
+	font-family: chalkduster, "bradley hand", courier,"seage print", sans-self;
+}
+
 
 header{
+	position: relative;
 	width: 90%;
 	padding: 15px 0;
 	margin: 15px auto;
@@ -23,6 +28,15 @@ header{
 }
 header .headline{
 	font-size: 32px;
+}
+.social{
+	position: absolute;
+	top:22px;
+	right:22px;
+}
+.socal i {
+	display: inline-block;
+	margin-left: 20px;
 }
 .nav-list{
 	text-align: center;
